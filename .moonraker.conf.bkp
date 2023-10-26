@@ -71,3 +71,7 @@ requirements = scripts/KlipperScreen-requirements.txt
 install_script = scripts/KlipperScreen-install.sh
 managed_services = KlipperScreen
 
+[spoolman]
+server = http://192.168.1.37:7912
+sync_rate = 5
+
